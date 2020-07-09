@@ -1,0 +1,58 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:iconSpaceReserved="false"
+        app:title="@string/main_settings">
+
+
+        <EditTextPreference
+            android:defaultValue="BTC"
+            android:key="coin_selected"
+            android:title="@string/choose_coin"
+            android:summary="@string/choose_coin_summary"
+            app:iconSpaceReserved="false"/>
+
+        <EditTextPreference
+            android:key="volume_limit"
+            android:defaultValue="1000000"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/choose_volume"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="service_selected"
+            android:title="@string/service_select"
+            android:summary="@string/service_select_summary"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="@string/other_settings">
+        <ListPreference
+            android:defaultValue="English"
+            android:entries="@array/language_select"
+            android:entryValues="@array/language_select"
+            android:key="language_selected"
+            android:title="@string/language_select"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="dark"
+            android:entries="@array/theme_select"
+            android:entryValues="@array/theme_selected"
+            android:key="theme_selected"
+            android:title="@string/theme_select"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9795</color>
+    <color name="colorPrimaryDark">#EF5350</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="metaTextColor">#aeaeae</color>
+    <color name="DarkThemeTextColor">#ffffff</color>
+    <color name="LightThemeTextColor">#121212</color>
+    <color name="Grey1">#111111</color>
+    <color name="Grey12">#121212</color>
+    <color name="Grey2">#222222</color>
+    <color name="Grey24">#242424</color>
+    <color name="Grey3">#333333</color>
+    <color name="Grey36">#363636</color>
+</resources>

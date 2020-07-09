@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">StockExCoin</string>
+    <string name="title_home">Главная</string>
+    <string name="title_coin">Рынки</string>
+    <string name="title_settings">Настройки</string>
+    <string name="download_info">Ошибка загрузки</string>
+    <string name="choose_coin">Выбрать валюту</string>
+    <string name="choose_volume">Выбрать лимит объема сделок 24ч</string>
+    <string name="search_hint">Поиск</string>
+    <string name="sort">Сортировка</string>
+
+    <string name="main_settings">Основные настройки</string>
+    <string name="other_settings">Дополнительные настройки</string>
+    <string name="mainNewsTitle">Новости</string>
+    <string name="topNewsButton">ТОП</string>
+    <string name="lastNewsButton">ПОСЛ</string>
+    <string name="feedNewsButton">ФИД</string>
+    <string name="language_select">Выбрать язык новостей</string>
+    <string name="info">Info</string>
+    <string name="info_title">Info</string>
+    <string name="info_message">Новости: <a href="https://github.com/cryptocontrol/">CryptoControl</a>\n\nРынки: <a href="https://coinmarketcap.com/">CoinMarketCap</a>\n\n</string>
+    <string name="choose_coin_summary">BTC, ETH, XRP, BCH или другую валюту</string>
+    <string name="theme_select">Выбор темы</string>
+    <string name="service_select">Включить уведомления</string>
+    <string name="service_select_summary">Уведомления о скачках цен на BTC и ETH (±1%/час)</string>
+    <string name="service_created">Сервис уведомлений создан</string>
+    <string name="service_started">Сервис уведомлений запущен</string>
+    <string name="service_stopped">Сервис уведомлений остановлен</string>
+    <string name="notification_description">Получайте уведомления о ценах</string>
+    <string name="notification_name">StockExCoin уведомления</string>
+    <string name="notification_text1">" цена изменилась на "</string>
+    <string name="notification_text2">" за последний час."</string>
+</resources>

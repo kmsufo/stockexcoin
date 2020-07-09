@@ -1,0 +1,31 @@
+<resources>
+
+    <string-array name="coin_symbol">
+        <item>BTC</item>
+        <item>ETH</item>
+        <item>XRP</item>
+        <item>BCH</item>
+        <item>BSV</item>
+        <item>LTC</item>
+        <item>BNB</item>
+        <item>EOS</item>
+        <item>XTZ</item>
+    </string-array>
+
+    <string-array name="language_select">
+        <item>English</item>
+        <item>Русский</item>
+    </string-array>
+
+    <string-array name="theme_select">
+        <item>@string/dark_theme</item>
+        <item>@string/light_theme</item>
+    </string-array>
+
+    <string-array name="theme_selected">
+        <item>dark</item>
+        <item>light</item>
+    </string-array>
+    <string name="dark_theme">Dark</string>
+    <string name="light_theme">Light</string>
+</resources>

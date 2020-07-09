@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonTint">@color/colorAccent</item>
+    </style>
+
+    <style name="LightTheme" parent="AppTheme">
+        <item name="textColor">#121212</item>
+        <item name="metaTextColor">#606060</item>
+        <item name="bgColor">#ffffff</item>
+        <item name="bgColor2">#fefefe</item>
+    </style>
+
+    <style name="DarkTheme" parent="AppTheme">
+        <item name="android:textColor">@color/DarkThemeTextColor</item>
+        <item name="android:textColorPrimary">@color/DarkThemeTextColor</item>
+        <item name="android:textColorSecondary">@color/metaTextColor</item>
+        <item name="android:textColorTertiary">@color/metaTextColor</item>
+        <item name="android:textColorHighlight">@color/metaTextColor</item>
+        <item name="android:textColorLink">@color/metaTextColor</item>
+        <item name="android:textColorHint">@color/metaTextColor</item>
+        <item name="android:textColorAlertDialogListItem">@color/DarkThemeTextColor</item>
+        <item name="textColorAlertDialogListItem">@color/DarkThemeTextColor</item>
+        <item name="textColor">@color/DarkThemeTextColor</item>
+        <item name="metaTextColor">@color/metaTextColor</item>
+        <item name="bgColor">@color/Grey12</item>
+        <item name="bgColor2">@color/Grey24</item>
+        <item name="colorBackgroundFloating">@color/Grey3</item>
+        <item name="android:colorBackgroundFloating" tools:targetApi="23">@color/Grey3</item>
+    </style>
+
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="navTextInactive">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/metaTextColor</item>
+    </style>
+
+    <style name="navTextActive">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/DarkThemeTextColor</item>
+    </style>
+
+</resources>

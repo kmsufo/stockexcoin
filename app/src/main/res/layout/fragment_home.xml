@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/bgColor">
+
+    <ImageButton
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/bgColor"
+        android:tint="?attr/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/downloadInfo"
+        app:srcCompat="@drawable/ic_sync_black_24dp" />
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView19"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        app:corners="20"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:width_weight="0.3"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="64dp"
+        app:corners="20"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:width_weight="0.4"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaderTextView1"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView1"
+        app:width_weight="0.8"
+        android:layout_margin="8dp"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaderTextView2"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView1"
+        app:width_weight="0.9"
+        android:layout_margin="8dp"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderImageView
+        android:id="@+id/loaderImageView1"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="64dp"
+        app:corners="20"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loaderTextView3"
+        app:width_weight="0.4"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaderTextView4"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView2"
+        app:width_weight="0.8"
+        android:layout_margin="8dp"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaderTextView5"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView2"
+        app:width_weight="0.9"
+        android:layout_margin="8dp"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderImageView
+        android:id="@+id/loaderImageView2"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loaderTextView4"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="64dp"
+        app:corners="20"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loaderTextView6"
+        app:width_weight="0.4"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaderTextView7"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView3"
+        app:width_weight="0.8"
+        android:layout_margin="8dp"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaderTextView8"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView3"
+        app:width_weight="0.9"
+        android:layout_margin="8dp"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderImageView
+        android:id="@+id/loaderImageView3"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loaderTextView7"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+        <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="64dp"
+        app:corners="20"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loaderTextView9"
+        app:width_weight="0.4"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaderTextView10"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView4"
+        app:width_weight="0.8"
+        android:layout_margin="8dp"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaderTextView11"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView4"
+        app:width_weight="0.9"
+        android:layout_margin="8dp"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderImageView
+        android:id="@+id/loaderImageView4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loaderTextView10"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="64dp"
+        app:corners="20"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loaderTextView12"
+        app:width_weight="0.4"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaderTextView13"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView5"
+        app:width_weight="0.8"
+        android:layout_margin="8dp"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaderTextView14"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView5"
+        app:width_weight="0.9"
+        android:layout_margin="8dp"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderImageView
+        android:id="@+id/loaderImageView5"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loaderTextView13"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView16"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="64dp"
+        app:corners="20"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loaderTextView15"
+        app:width_weight="0.4"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView17"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaderTextView16"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView6"
+        app:width_weight="0.8"
+        android:layout_margin="8dp"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/loaderTextView18"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaderTextView17"
+        app:layout_constraintEnd_toStartOf="@+id/loaderImageView6"
+        app:width_weight="0.9"
+        android:layout_margin="8dp"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+    <com.elyeproj.loaderviewlibrary.LoaderImageView
+        android:id="@+id/loaderImageView6"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/loaderTextView16"
+        app:corners="20"
+        app:use_gradient="true"
+        android:textStyle="bold"
+        app:custom_color="@color/Grey3"/>
+
+
+
+    <TextView
+        android:id="@+id/downloadInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/download_info"
+        android:textAlignment="center"
+        android:textColor="?attr/textColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35"
+        tools:text="@string/download_info" />
+
+
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/newslist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="LinearLayoutManager">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

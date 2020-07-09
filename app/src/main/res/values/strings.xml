@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">StockExCoin</string>
+    <string name="title_home">Home</string>
+    <string name="title_coin">Markets</string>
+    <string name="title_settings">Settings</string>
+    <string name="download_info">Load error</string>
+    <string name="choose_coin">Choose Coin</string>
+    <string name="choose_volume">Choose 24h volume limit</string>
+    <string name="search_hint">Search</string>
+    <string name="sort">Sort</string>
+
+    <string name="main_settings">Main settings</string>
+    <string name="other_settings">Other settings</string>
+    <string name="mainNewsTitle">News</string>
+    <string name="topNewsButton">TOP</string>
+    <string name="lastNewsButton">LAST</string>
+    <string name="feedNewsButton">FEED</string>
+    <string name="language_select">Select news language</string>
+    <string name="info">Info</string>
+    <string name="info_title">Info</string>
+    <string name="info_message">News data:<a href="https://github.com/cryptocontrol/">CryptoControl</a>\n\nCoin data: <a href="https://coinmarketcap.com/">CoinMarketCap</a>\n\n</string>
+    <string name="choose_coin_summary">BTC, ETH, XRP, BCH or other currency</string>
+    <string name="theme_select">Theme select</string>
+    <string name="service_select">Enable notifications</string>
+    <string name="service_select_summary">Notifies about price spikes on BTC and ETH (±1%/hour)</string>
+    <string name="service_created">Notification service created</string>
+    <string name="service_started">Notification service started</string>
+    <string name="service_stopped">Notification service has been stopped</string>
+    <string name="notification_description">Get notifications about prices</string>
+    <string name="notification_name">StockExCoin notifications</string>
+    <string name="notification_text1">" price has changed by "</string>
+    <string name="notification_text2">" in the last hour."</string>
+</resources>
